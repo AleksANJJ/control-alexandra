@@ -1,38 +1,157 @@
-.App {
+
+body {
+  background-color: rgb(151, 241, 171);
+}
+nav {
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 20px;
+}
+h1 {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 90px;
+  font-family: 'Rosario', sans-serif;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  
+  font-family: 'Rosario', sans-serif;
+  font-size: 35px;
+  color: #222222;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imageHome {
+  position: absolute;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.imgLogo {
+  margin-top: -10px;
+}
+.pHome {
+  position: absolute;
+  margin-left: 800px;
+  margin-right: 10px;
+  margin-top: 320px;
+  font-family: 'Rosario', sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  color: #222222;
+  text-align: center;
+}
+.pAbout {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-family: 'Rosario', sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  color: #222222;
+  text-align: center;
+}
+.btnHome {
+  position: absolute;
+  margin-left: 970px;
+  margin-top: 480px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 25px;
+  color: #222222;
+  background-color: rgb(63, 216, 96);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+ul, li {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-family: 'Rosario', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #222222;
+}
+.pService {
+  margin-left: 50px;
+  font-family: 'Rosario', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #222222;
+}
+.liService {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-family: 'Rosario', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #222222;
+  font-weight: 600;
+}
+.imageAbout {
+  margin-left: 700px;
+  margin-top: -260px;
+  border-radius: 30px;
+}
+.prod {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+}
+.prodCard {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+.btnProdFil {
+  background-color: antiquewhite;
+  color: #222222;
+  padding: 12px;
+  border: none;
+  font-family: 'Rosario', sans-serif;
+  margin-top: 20px;
+  font-size: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.cont {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.contTwo {
+  display: flex;
+}
+.imgProd {
+  border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.btnAdd {
+  padding: 10px;
+  font-family: 'Rosario', sans-serif;
+  margin-top: 40px;
+  background-color: deepskyblue;
+  border: none;
+  border-radius: 10px;
+  margin-left: 30px;
+  
 }
+.divProd {
+  display: flex;
+}
+.btnAbout {
+  height: 500px;
+  color: #222222;
+  background-color: antiquewhite;
+  border: none;
+  font-size: 20px;
+  font-family: 'Rosario', sans-serif;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
